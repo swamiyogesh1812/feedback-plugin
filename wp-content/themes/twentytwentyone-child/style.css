@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Twenty Twenty-One Child
+ Theme URI:    https://www.plaxonic.com 
+ Description:  Child theme for Twenty Twenty-One
+ Author:       Yogesh
+ Author URI:   https://www.plaxonic.com 
+ Template:     twentytwentyone
+ Version:      1.0.0
+*/
+
+
+.latest-feedback {
+    background-color: #f9f9f9;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.latest-feedback h2 {
+    font-size: 1.75em;
+    margin-bottom: 1em;
+}
+
+.feedback-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feedback-list li {
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 1em;
+}
+
+.feedback-list li strong {
+    font-size: 1.25em;
+}
+
+.feedback-list li p {
+    font-size: 1em;
+    color: #333;
+}
+@media (max-width: 768px) {
+    .latest-feedback {
+        padding: 1em;
+    }
+
+    .feedback-list li strong {
+        font-size: 1.1em;
+    }
+}
